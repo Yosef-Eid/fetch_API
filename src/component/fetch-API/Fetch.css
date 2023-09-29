@@ -1,0 +1,21 @@
+.data{
+    width:300px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.data :hover{
+    background-color: rgba(172, 172, 172, 0.176);
+}
+.data li{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.fetch{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+}
